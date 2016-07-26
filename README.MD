@@ -14,7 +14,7 @@ React CodeLab 에서 Express 초기 작업환경을 설정 할 때 사용 된 �
 ## 설치하기
 
 ```sh
-npm install -g webpack webpack-dev-server babel nodemon
+npm install -g webpack webpack-dev-server babel nodemon cross-env
 npm install
 # npm install 이 오래걸린다면 node_modules.zip 을 다운로드 받아서 압축해제하세요.
 wget https://github.com/velopert/react-codelab-express/releases/download/1.0/node_modules.zip
