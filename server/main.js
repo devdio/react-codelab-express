@@ -5,8 +5,8 @@ import webpack from 'webpack';
 import WebpackDevServer from 'webpack-dev-server';
 
 const app = express();
-const port = 8080;
-const devPort = 8081;
+const port = 3000;
+const devPort = 4000;
 
 app.use('/', express.static(path.join(__dirname, './../public')));
 

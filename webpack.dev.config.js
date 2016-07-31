@@ -4,7 +4,7 @@ module.exports = {
  
     entry: [
         './src/index.js',
-        'webpack-dev-server/client?https://0.0.0.0:8081',
+        'webpack-dev-server/client?https://0.0.0.0:4000',
         'webpack/hot/only-dev-server'
     ],
  
@@ -20,7 +20,7 @@ module.exports = {
         historyApiFallback: true,
         contentBase: './public',
         proxy: {
-            "*": "http://localhost:8080"
+            "*": "http://localhost:3000"
         },
         stats: {
           // Config for minimal console.log mess.

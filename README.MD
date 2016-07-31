@@ -28,7 +28,7 @@ unzip node_modules.zip -d node_modules
 - `npm run start` production 환경에서 서버 시작
 - `npm run development` development 환경에서 서버 시작
 
-Express 서버는 포트 8080, 개발서버는 8081 으로 실행됩니다. 변경은 server/main.js 에서 할 수 있습니다.
+Express 서버는 포트 3000, 개발서버는 4000 으로 실행됩니다. 변경은 server/main.js 에서 할 수 있습니다.
 포트를 변경한다면 webpack.dev.config.js 파일도 수정해주셔야 개발서버가 정상작동합니다.
 
 주의: Cloud9 에서 사용한다면 webpack.dev.config.js 에서 7번줄에 https 를 넣어주세요.
